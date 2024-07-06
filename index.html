@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Currency Calculator</title>
+
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Currency Converter</h1>
+    </header>
+    <main>
+      <div class="container" id="first-container">
+        <div class="main-container">
+          <div class="flag-container">
+            <img class="flag-img" src="imgs/serbia_flag.gif" />
+            <span class="currency-code current-currency-code">RSD </span>
+          </div>
+
+          <input
+            type="text"
+            class="input"
+            id="currency-input"
+            value="Serbian Dinar"
+            data-ordinal="first"
+          />
+
+          <div class="button-container">
+            <button class="close-btn hidden">X</button>
+            <button class="more-btn">
+              <img src="imgs/arrow-down.svg" class="btn-svg" />
+            </button>
+          </div>
+
+          <input
+            type="number"
+            class="result-input"
+            placeholder="Input positive number"
+          />
+        </div>
+
+        <div class="dropdown-container">
+          <!-- <div class="option">
+            <img class="flag-img" class="flag" src="imgs/serbia_flag.gif">
+            <span class="currency-code">RSD
+            </span>
+            <span class="currency--name">Serbian dinar</span>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="convert-swap-button-container">
+        <button class="swap-button">SWAP</button>
+        <button class="convert-button">CONVERT</button>
+      </div>
+
+      <div class="container" id="second-container">
+        <div class="main-container">
+          <div class="flag-container">
+            <img class="flag-img" src="imgs/serbia_flag.gif" />
+            <span class="currency-code current-currency-code">RSD </span>
+          </div>
+
+          <input
+            type="text"
+            class="input"
+            id="currency-input"
+            value="Serbian Dinar"
+            data-ordinal="second"
+          />
+
+          <div class="button-container">
+            <button class="close-btn hidden">X</button>
+            <button class="more-btn">
+              <img src="imgs/arrow-down.svg" class="btn-svg" />
+            </button>
+          </div>
+
+          <p class="result"></p>
+        </div>
+
+        <div class="dropdown-container">
+          <!-- <div class="option">
+            <img class="flag-img" class="flag" src="imgs/serbia_flag.gif">
+            <span class="currency-code">RSD
+            </span>
+            <span class="currency--name">Serbian dinar</span>
+          </div> -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
