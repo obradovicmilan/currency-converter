@@ -1,5 +1,5 @@
 import { removeDuplicates, calculationOfConverting } from "./helpers.js";
-import { eventListeners } from "./eventListeners.js";
+import { eventListeners } from "./init.js";
 
 const inputs = document.querySelectorAll(".input");
 const dropdown = document.querySelectorAll(".dropdown-container");
