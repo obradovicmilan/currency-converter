@@ -1,0 +1,3 @@
+CURRENCY CONVERTER
+
+Description Welcome too my first project. It's simple currency converter app made in JavaScript. It allows users to search for currency by clicking a button or to search for it by typing the name in input field. After selecting the currency, the user should enter the value he wants to convert and by pressing the "CONVERT" button, the application converts the left selected currency to the right selected currency and prints the result below the right selected currency. Also, by pressing the "SWAP" button you change the selected currencies, the left one becomes the currency to be converted to, while the right one becomes the currency to be converted from.
